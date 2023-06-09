@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <ul class="navbar">
+    <li class="logo">
+      <img src="img/logo.jpg" alt="Logo">
+    </li>
+	<li class="navbar-title">
+      <h3>PANKALI.COM</h3>
+    </li>
+    <li><a href="home2.html">Back</a></li>
+    
+  </ul>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form action="/contact" method="post">
+	<div>
+      <div class="clearfix">
+	   <label for="fname">First Name</label>
+        <input type="text" id="fname"  name="fname" required>
+      </div>
+      <div class="clearfix">
+	   <label for="fname">Last Name</label>
+        <input type="text" id="password" name="lname" required>
+      </div>
+ 
+   
+    <div class="clearfix">
+    <label for="country">Country</label>
+    <select id="state" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+	</div>
+	<div class="clearfix">
+    <label for="subject">Subject:</label>
+	<textarea id="subject" name="subject" rows="3" required></textarea>
+  </div>
+
+   
+<div id="contact"></div>
+        <button type="submit" class="btn btn-custom btn-lg">Contact US</button>
+    </div>
+  </form>
+</div></div>
+ <footer class="footer">
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+ 
+</body>
+</html>
